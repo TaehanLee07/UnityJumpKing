@@ -12,7 +12,7 @@ public class EnemyMove : MonoBehaviour
 
     void Awake()
     {
-        // 필요한 컴포넌트 가져오기d
+        // 필요한 컴포넌트 가져오기
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
