@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-    Rigidbody2D rigid;d
+    Rigidbody2D rigid;
     Animator anim;
     SpriteRenderer spriteRenderer;
     CapsuleCollider2D collider;
